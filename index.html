@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>SAD- Secretaria de Asuntos Docentes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minumun-scale1.0" >
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilos.css" rel="stylesheet">
+    </head>
+    <body>
+                 <header>
+            <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-mm">
+                            <span class="sr-only">Desplegar / Ocultar menu</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+                        <img class="logotipo" src="img/bsas.jpg">
+                        <a href="#" class="navbar-brand">SAD Quilmes</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navegacion-mm">
+                        <ul class="nav navbar-nav">
+                            <li><a href="inicio.html">Inicio</a></li>
+                            <li class="active"><a href="index.html">InFine</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="jumbotron">
+            <div class="container">
+                <h1>Secretaria de Asuntos Docentes</h1>
+                <p class="titulo-blog">Quilmes</p>
+            </div>
+        </section>
+        <section class="main container">
+            <div class="row">
+                <section class="posts col-md-9" >
+                    <div class="miga-de-pan">
+                        <ol class="breadcrumb">
+                            <li>Inicio</li>
+                            <li class="active">InFine</li>
+                        </ol>
+                    </div>
+                    <article class="post clearfix">
+                    <div class="formulario">
+                    <div class="bloque">
+
+<form name="formulario" method="post" action="infine.php">
+<br>
+<h3>Cobertura provisionales y suplencias</h3>
+
+<b>RECUERDE: Al completar el siguiente formulario se le generará un documento en formado PDF que usted deberá imprimir para presentar en la Secretaría de Asuntos Docentes.</b>
+
+<h3><u>ÁREA INSCRIPCIONES</u></h3><br>
+<b>Área:</b><br>
+<input class="cajas" type="text" name="area" placeholder="Ingrese el área" maxlength="30" required><br><br>
+
+<b>Listado:</b><br>
+<input class="cajas" type="text" name="lista" placeholder="Ingrese la lista" maxlength="30" required><br><br>
+
+<b>Nombres y Apellido:</b><br>
+<input class="cajas" type="text" name="nombre" placeholder="Ingrese sus nombres y apellido completo" maxlength="40" required><br><br>
+
+<b>Tipo de Documento:</b><br>
+<input class="cajas" type="text" name="tipo" placeholder="Ingrese su tipo de documento especifico" maxlength="20" required><br><br>
+
+<b> N° de Documento: </b><br>
+<input class="cajas" type="number" name="documento" placeholder="Ingrese su número de documento sin separación por puntos" maxlength="8" required><br><br>
+
+<b>Fecha de Nacimiento: </b><br>
+<input class="cajas" type="date" name="nacimiento" required><br><br>
+
+<b> Teléfono: </b><br>
+<input class="cajas" type="text" name="telefono" placeholder="Ingrese su número de teléfono sin separación por barras" maxlength="15" required><br><br>
+
+<b> E-mail (ACTIVO): </b><br>
+<input type="email" name="email" placeholder="Recuerde que por esté se le confirmará la solicitud del formulario" required><br><br>
+
+<b> Domicilio: </b><br>
+<input class="cajas" type="text" name="domicilio" placeholder="Ingrese su domicilio" maxlength="40" required><br><br>
+
+<b> Localidad: </b><br>
+<input class="cajas" type="text" name="localidad" placeholder="Ingrese su localidad" maxlength="50" required><br><br>
+
+<b> Nacionalidad: </b><br>
+<input class="cajas" type="text" name="nacionalidad" placeholder="Ingrese su nacionalidad" maxlength="40" required><br><br>
+
+<b> CUIT/CUIL </b><br>
+<input class="cajas" type="text" name="cuil" placeholder="Ingrese su CUIT/CUIL sin separación por barras" maxlength="15" required><br><br>
+
+<b> Titulo registrado N°: </b><br>
+<input class="cajas" type="number" name="registro" placeholder="Ingrese el número registrado en su título" maxlength="10" required><br><br>
+
+<b>ES JUBILADO?:</b><br>
+<select class="cajas" name="jubilacion" size="1">
+<option value="Si">Sí</option>
+<option value="No" selected>No</option>
+</select>
+<br><br>
+
+
+<b>ES TITULAR?:</b><br>
+<select class="cajas" name="titular" size="1">
+<option value="Si">Sí</option>
+<option value="No" selected>No</option>
+</select>
+
+<br><br>
+
+<b>TAREAS PASIVAS?:</b><br>
+<select class="cajas" name="pasivas" size="1">
+<option value="Si">Sí</option>
+<option value="No" selected>No</option>
+</select>
+
+
+
+<h3><u>TÍTULOS Y/O CERTIFICADOS HABILITANTES:</u></h3>
+
+<b>Título secundario (Indicar nombre especifico) y Establecimiento:</b><br>
+<textarea class="cajas" name="secundario" rows="10" cols="40" placeholder="Ejemplo: Titulo: Técnico Programador, E.E.T N°4." maxlength="300" required></textarea><br><br>
+
+<b>Título Terciario, Universitario y Otros (Indicar nombre especifico) y Establecimiento:</b><br>
+<textarea class="cajas" name="terciario" rows="10" cols="40" placeholder="Ejemplo: Titulo: Ingeniero Informático, UNAJ." maxlength="300"></textarea><br><br>
+
+<b>Estudiante nombre del título a obtener y condición (Indicar sí se encuentra en trámite o sí tiene porcentaje) y Establecimiento:</b><br>
+<textarea class="cajas" name="tramite" rows="10" cols="40" placeholder="Ejemplo: Titulo: Licenciado en Informática, 60% de la carrera aprobada, UNQUI." maxlength="300"></textarea><br><br>
+
+<b>INGRESE LA FECHA EN LA QUE DESEA PRESENTAR LA DOCUMENTACIÓN:</b><br>
+<input class="cajas" type="date" name="fechaorden" placeholder="Ingrese la fecha" maxlength="40" required><br><br>
+
+<b>IMPORTANTE: Tenga en cuenta que los horarios de atención de la Secretaria de Asuntos Docentes de Quilmes son de 8 AM a 4 PM, solo atiende en días hábiles de semana (excluyendo fines de semana y días feriados), son otorgados únicamente 50 turnos al día y son dados por orden de petición al sistema.</b><br>
+
+
+<br><br><input class="cajas" type="submit" value="ENVIAR FORMULARIO" id="enviar"><br>
+<br><input class="cajas" type="reset" value="VACIAR FORMULARIO" id="reinciar">
+</form>
+<br>
+</div>
+</div>
+                    </article>
+                </section>
+                <aside class="col-md-3 hidden-xs hidden-sm">
+            <h4>Contenido</h4>
+            <div class="list-group">
+                <a href="inicio.html" class="list-group-item">Inicio</a>
+                <a href="index.html" class="list-group-item active" style="background-color: #23DE05; border-color: #23DE05;">InFine</a>
+                <a href="contacto.html" class="list-group-item">Contacto</a>
+            </div>
+        </aside>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="col-xs-6">
+                    <p>Grupo E.E.T N°4 7º3ª</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

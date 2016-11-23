@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>SAD- Secretaria de Asuntos Docentes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minumun-scale1.0" >
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilos.css" rel="stylesheet">
+    </head>
+    <body>
+         <header>
+            <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-mm">
+                            <span class="sr-only">Desplegar / Ocultar menu</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+                        <img class="logotipo" src="img/bsas.jpg">
+                        <a href="#" class="navbar-brand">SAD Quilmes</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navegacion-mm">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Inicio</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                    Inscripción <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="index.html">InFine</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Turnos</a></li>                                
+                                </ul>
+                            </li>
+                            <li><a href="usuario.html">Usuario Y Registro</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="jumbotron">
+            <div class="container">
+                <h1>Secretaria de Asuntos Docentes</h1>
+                <p class="titulo-blog">Quilmes</p>
+            </div>
+        </section>
+        <section class="main container">
+            <div class="row">
+                <section class="posts col-md-9" >
+                    <div class="miga-de-pan">
+                        <ol class="breadcrumb">
+                            <li class="active">Inicio</li>
+                        </ol>
+                    </div>
+                    <article class="post clearfix">
+                    <div class="bloque">
+
+<form name="formulario" method="post" action="index.php">
+<h3>Cobertura provisionales y suplencias</h3>
+
+<b>Ingrese la fecha exacta: </b>
+<input type="date" name="fecha" required><br><br>
+
+<h3><u>ÁREA INSCRIPCIONES</u></h3><br>
+<b>Área:</b><br>
+<input type="text" name="area" placeholder="Ingrese el área" required><br><br>
+
+<b>Lista:</b><br>
+<input type="text" name="lista" placeholder="Ingrese la lista" required><br><br>
+
+<b>Nombres y Apellido:</b><br>
+<input type="text" name="nombre" placeholder="Ingrese sus nombres y apellido completo" required><br><br>
+
+<b>Tipo de Documento:</b><br>
+<input type="text" name="documento" placeholder="Ingrese su tipo de documento especifico" required><br><br>
+
+<b> N° de Documento: </b><br>
+<input type="number" name="numerodocumento" placeholder="Ingrese su número de documento sin separación por puntos" required><br><br>
+
+<b>Fecha de Nacimiento: </b><br>
+<input type="date" name="nacimiento" required><br><br>
+
+<b> Teléfono: </b><br>
+<input type="number" name="telefono" placeholder="Ingrese su número de teléfono sin separación por barras" required><br><br>
+
+<b> E-mail (ACTIVO): </b><br>
+<input type="email" name="email" placeholder="Recuerde que por esté se le confirmará la solicitud del formulario" required><br><br>
+
+<b> Domicilio: </b><br>
+<input type="text" name="domicilio" placeholder="Ingrese su domicilio" required><br><br>
+
+<b> Localidad: </b><br>
+<input type="text" name="localidad" placeholder="Ingrese su localidad" required><br><br>
+
+<b> Nacionalidad: </b><br>
+<input type="text" name="nacionalidad" placeholder="Ingrese su nacionalidad" required><br><br>
+
+<b> CUIT/CUIL </b><br>
+<input type="number" name="cuil" placeholder="Ingrese su CUIT/CUIL sin separación por barras" required><br><br>
+
+<b> Titulo registrado N°: </b><br>
+<input type="number" name="registro" placeholder="Ingrese el número registrado en su título" required><br><br>
+
+<b>ES JUBILADO?:</b><br>
+<select name="jubilacion" size="1">
+<option value="valor1">Sí</option>
+<option value="valor2" selected>No</option>
+</select>
+<br><br>
+
+
+<b>ES TITULAR?:</b><br>
+<select name="titular" size="1">
+<option value="valor1">Sí</option>
+<option value="valor2" selected>No</option>
+</select>
+
+<br><br>
+
+<b>TAREAS PASIVAS?:</b><br>
+<select name="pasivas" size="1">
+<option value="valor1">Sí</option>
+<option value="valor2" selected>No</option>
+</select>
+
+
+
+<h3><u>TÍTULOS Y/O CERTIFICADOS HABILITANTES:</u></h3>
+
+<b>Título secundario (Indicar nombre especifico) y Establecimiento:</b><br>
+<textarea name="secundario" rows="10" cols="40" placeholder="Ejemplo: Titulo: Técnico Programador, Escuela Técnica en Computación N°4 'Ricardo Alberto Lopez' Berazategui." required></textarea><br><br>
+
+<b>Título Terciario, Universitario y Otros (Indicar nombre especifico) y Establecimiento:</b><br>
+<textarea name="terciario" rows="10" cols="40" placeholder="Ejemplo: Titulo: Ingeniero Industrial, Universidad Nacional Arturo Jauretche ( UNAJ), Florencio Varela." required></textarea><br><br>
+
+<b>Estudiante nombre del título a obtener y condición (Indicar sí se encuentra en trámite o sí tiene porcentaje) y Establecimiento:</b><br>
+<textarea name="tramite" rows="10" cols="40" placeholder="Ejemplo: Titulo: Licenciado en Informática, 28 materias aprobadas, 60% de la carrera aprobada, Universidad Nacional de Quilmes (UNQUI)." required></textarea><br><br>
+
+
+<br><br><br><input type="submit" value="ENVIAR FORMULARIO" id="enviar"><br>
+<br><input type="reset" value="VACIAR FORMULARIO" id="reinciar">
+</form>
+</div>
+                    </article>
+                </section>
+                <aside class="col-md-3 hidden-xs hidden-sm">
+            <h4>Contenido</h4>
+            <div class="list-group box-lateral">
+                <a href="#" class="list-group-item active">Inico</a>
+                <a href="contacto.html" class="list-group-item">Contacto</a>
+                <a href="#" class="list-group-item">Infine</a>
+                <a href="#" class="list-group-item">Usuario</a>
+                <a href="#" class="list-group-item">Turnos</a>
+            </div>
+        </aside>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="col-xs-6">
+                    <p>Grupo E.E.T N°4 7º3ª</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

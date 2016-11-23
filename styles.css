@@ -1,0 +1,91 @@
+header{
+	width:100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	height:60px;
+	background:rgba(51, 156, 255, 0.6);
+	color:white;
+	font-family: arial;
+	font-size:18px;
+	text-align:center;
+	line-height:150%;
+	border-bottom:2px solid grey;
+	text-shadow:1px 1px grey;
+}
+
+body{
+padding-top:100px;
+background: url(fondo.jpg);
+}
+
+.bloque{
+margin:auto;
+width:80%;
+height:2300px;
+padding:20px;
+background:rgba(51, 156, 255, 0.6);
+color:white;
+font-family:arial;
+border-radius:10px;
+border:2px solid grey;
+box-shadow:4px 4px grey;
+text-align:center;
+font-size:20px;
+}
+
+@media screen and (max-height: 500px) {
+.bloque{
+	height:250px;
+}
+}
+
+@media screen and (min-width: 700px) {
+
+input{
+color:black;
+border-radius:7px;
+width:70%;
+height:10%;
+font-size:80%;
+}
+#entrar{
+font-family:arial;
+font-size:30px;
+width:200px;
+height:50px;
+background:rgba(255,255,255,0);
+border:2px solid rgba(255,255,255,0.2);
+color:white;
+margin-top:10px;
+}
+}
+
+@media screen and  (max-width:700px){
+.bloque{
+	height:250px;
+}
+input{
+color:black;
+border-radius:7px;
+width:70%;
+height:10%;
+font-size:50%;
+}
+
+#entrar{
+font-family:arial;
+font-size:20px;
+width:100px;
+height:30px;
+background:rgba(255,255,255,0);
+border:2px solid rgba(255,255,255,0.2);
+color:white;
+margin-top:10px;
+}
+}
+
+#entrar:hover{
+cursor:pointer;
+background:rgba(255,255,255,0.3);
+}
